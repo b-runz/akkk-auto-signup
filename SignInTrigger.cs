@@ -17,7 +17,7 @@ namespace brj
         }
 
         [Function("SignInTrigger")]
-        public async Task Run([TimerTrigger("0 31 21 * * 3")] TimerInfo myTimer)
+        public async Task Run([TimerTrigger("0 31 19 * * 3")] TimerInfo myTimer)
         { 
             string loginUrl = "https://www.aarhuskanokajak.dk/account/loginajax";
 
